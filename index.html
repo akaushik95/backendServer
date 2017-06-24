@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title> TNP FORM </title>
+</head>
+<body>
+	
+	<div style="width:100%;"> 
+		
+	<div1 style="float:left; width:50%;overflow: auto;">
+		Register Student:
+	<form action="/api/student" method="POST">
+	<br>
+		<input type="text" placeholder="name" name="name"><br><br>
+		<input type="text" placeholder="department" name="department"><br><br>
+		<input type="text" placeholder="rollno" name="rollno"><br><br>
+		<input type="text" placeholder="cgpaTillCurrentSemester" name="cgpaTillCurrentSemester"><br><br>
+		<input type="text" placeholder="class10thCgpaorPercentage" name="class10thCgpaorPercentage"><br><br>
+		<input type="text" placeholder="class12thPercentage" name="class12thPercentage"><br><br>
+		<input type="text" placeholder="yearOfpassingClass12th" name="yearOfpassingClass12th"><br><br>
+		<button type="submit">Submit</button>
+	</form>
+	</div1>
+	<div2 style="float:right;width: 50%">
+		Register Company:
+	<form action="/api/company" method="POST">
+	<br>
+		<input type="text" placeholder="name" name="name"><br><br>
+		<input type="text" placeholder="minimumCGPA" name="minimumCGPA"><br><br>
+		<input type="text" placeholder="package" name="package"><br><br>
+		<input type="text" placeholder="backlogsAllowed" name="backlogsAllowed"><br><br>
+		<input type="text" placeholder="allowedBranches" name="allowedBranches"><br><br>
+		<input type="text" placeholder="profileOffered" name="ProfileOffered"><br><br>
+		<button type="submit">Submit</button>
+	</form>
+	</div2>
+
+	</div>
+ 
+</body>
+</html>
